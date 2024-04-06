@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+
+/* definir tema dark do site */
+
+:root, :root [data-theme='dark' ] {
+    /*definir cores padrao em variavel*/
+
+    --primary-color: #f0f0f0; 
+    --primary-bg-color:#111217;
+    --secundary-bg-color: #c7c8c9;
+    --primary-border-color:#28292E; 
+    --secundary-border-color: #56575A;
+
+    --title-color: #f0f0f0;
+    --text-color: #9a9a9c;
+    --link-color: #9a9a9c; 
+    --icon-color: #c7c8c9; 
+
+}
+
+:root [data-theme='light'] {
+--primary-color: #0b0b0f;
+--primary-bg-color: #9a9a9c;
+--secundary-bg-color: #c7c8c9;
+--primary-border-color: #c7c8c9;
+--secundary-border-color: #9a9a9c;
+
+--title-color: #0b0b0f;
+--text-color: #28292e;
+--link-color: #28292e;
+--icon-color: #56575a;
+}
+
+html [data-theme='light'] .brand-logo
+{
+    filter: invert(1);
+}
+
+/* reset css
+ padronizar navegadores
+  */
+
+* {
+    margin: 0;
+    padding:0;
+    vertical-align: baseline ;
+    list-style:none ;
+    scrollbar-width:thin ;
+    scrollbar-color: var(--secundary-bg-color) transparent ;
+
+}
+body {
+    background: var(--primary-bg-color);
+    font-family: 'inter', tahoma, geneva ,verdana,sans serif ;
+    color: var(--text-color) ;
+
+}
