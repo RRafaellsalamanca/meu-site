@@ -412,3 +412,12 @@ main {
     gap: 0.625rem;
     border: 1px var(--secondary-bg-color) ;
 }
+.accordion-item.active .accordion-header {
+    background: var(--secondary-bg-color);
+}
+.accordion-item.active .accordion-body {
+    display: flex;
+}
+.accordion-item.active .bi-caret-down-fill {
+    transform: rotate(180deg);
+}
