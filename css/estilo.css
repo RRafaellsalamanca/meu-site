@@ -521,6 +521,12 @@ footer p {
         gap: 4rem;
 
     }
+    .sobre-descricao h2 {
+        text-align: left;
+    }
+    .descricao-button{
+        justify-content: flex-start;
+    }
 
 
 }
