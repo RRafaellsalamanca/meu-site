@@ -163,6 +163,7 @@ p {
 }
 .menu-mobile{
     width: 100vw;
+    position: fixed;
     bottom: 0;
     justify-content: space-between;
     border-top: 1px solid var(--primary-border-color);
@@ -216,6 +217,10 @@ p {
 .btn-primary {
     border: 1px solid var(--primary-color);
 }
+#home, .projetos, .sobre, .contato{
+    padding: 2.5rem 1rem;
+}
+
 main {
     display: flex;
     flex-direction: column;
