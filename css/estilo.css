@@ -5,10 +5,10 @@
     /* definir cores padrão em Variável */
     
     --primary-color: #f0f0f0;  /* cor textos */
-    --primary-bg-color: #171111;  /* BG = Background */
-    --secondary-bg-color: #28292E;
-    --primary-border-color: #28292E;
-    --secondary-border-color: #56575A;
+    --primary-bg-color: #252326;  /* BG = Background */
+    --secondary-bg-color: #13444d;
+    --primary-border-color: #2d5e4c;
+    --secondary-border-color: #4f784e;
         
     /* definir cores padrão para os TEXTOS em Variável */
     --title-color: #F0F0F0;
@@ -190,7 +190,7 @@ p {
     justify-content: center;
     align-items: center;
     gap: 0.625rem;
-    /*  width: ;  */
+    width:100% ;  
     background: transparent;
     border-radius: 3.125rem;
     border: none;
@@ -371,7 +371,7 @@ main {
     text-align: justify;
     gap: 2rem;
 }
-.sobre-content1 .col1 .row1,
+.sobre-content2 .col1 .row1,
 .sobre-content2 .col1 .row2 {
     display: flex;
     flex-direction: column;
@@ -474,7 +474,7 @@ footer p {
     h2 {
         font-size: 3rem;
     } 
-    main, .projeto, .sobre {
+    #home, .projeto, .sobre {
         padding: 8rem 6rem 4rem 6rem;
     }
     .contato {
@@ -503,7 +503,7 @@ footer p {
         flex-direction: row;
     }
 
-    .projeto-card .card-reverso {
+    .projeto-card.card-reverso {
         flex-direction: row-reverse;
         justify-content: space-between;
     }
@@ -527,6 +527,64 @@ footer p {
     .descricao-button{
         justify-content: flex-start;
     }
+}
 
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {font-size: 2.5rem;
+    }
+#home {
+    padding: 12rem 6rem 2rem;
+}
+.main-content .btn {
+    width: auto;
+}
+.tecnologias {
 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10rem 6rem 4rem;
+}
+.tecnologias h2 {
+    font-size: 3rem;
+    width: 55%;
+}
+.tecnologias-lista {
+    gap: 1rem;
+}
+
+.tecnologias-item {
+    width: 6rem;
+    height: 6rem;
+}
+.tecnologias-logo {
+    height: 3rem;
+}
+p, span, li {
+    font-size: 1.15rem;
+}
+.card-button .btn, 
+.descricao-button .btn {
+    width: auto;
+}
+
+}
+@media (min-width: 1400px) {
+    h1 {
+        font-size: 6.25rem;
+    }
+    h2 {
+        font-size: 4.5rem;
+    }
+    h3 {
+        font-size: 3.25rem;
+    }
+    .header{
+        padding: 1rem 15rem 2rem;
+    }
+    .tecnologias, .projetos, .sobre {
+        padding: 10rem 15rem 4rem;
+    }
 }
