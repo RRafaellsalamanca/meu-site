@@ -286,7 +286,7 @@ main {
     gap: 2rem;  
 }
 .cartao{
-    width: 70rem;
+    width: 100%;
     border-radius: 0.5rem;
     object-fit: cover;   /***/
     object-position: center;
