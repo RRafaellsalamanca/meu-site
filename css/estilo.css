@@ -5,15 +5,15 @@
     /* definir cores padrão em Variável */
     
     --primary-color: #f0f0f0;  /* cor textos */
-    --primary-bg-color: #252326;  /* BG = Background */
-    --secondary-bg-color: #13444d;
+    --primary-bg-color: #260729;  /* BG = Background */
+    --secondary-bg-color: ;
     --primary-border-color: #2d5e4c;
     --secondary-border-color: #4f784e;
         
     /* definir cores padrão para os TEXTOS em Variável */
-    --title-color: #F0F0F0;
+    --title-color: #2d5e4c;
     --text-color: #9a9a9c;
-    --link-color:#9a9a9c;
+    --link-color:#2a2344;
     --icon-color: #C7C8C9;
 } 
 
