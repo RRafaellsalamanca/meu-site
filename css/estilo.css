@@ -309,7 +309,7 @@ main {
 }
 .card-button, .descricao-button {
     display: flex;
-    flex-flow: row wrap;  /****/
+    flex-flow: row wrap; 
     justify-content: center;
 }
 .card-button .btn {
@@ -326,7 +326,7 @@ main {
     height: 2rem;
 }
 .projetos .btn {
-    width: auto;  /***/ 
+    width: auto;
     margin: auto;
 }
 /* fim projeto */
