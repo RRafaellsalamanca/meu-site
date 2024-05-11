@@ -14,3 +14,16 @@ function changeTheme(){
 }
 
 toggleTheme.addEventListener("click", changeTheme);
+
+accordionsHeaders.forEach(header => {
+
+    header.addEventListener("click",() => {
+
+    const accordionItem = header.parentElement;
+    const accordionActive = accordionItem.classList.contains("active");
+
+    accordionActive ? accordionItem.classList.remove("active") : accordionItem.classList.add("active")
+    
+    })
+
+ })
